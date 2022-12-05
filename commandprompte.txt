@@ -1,0 +1,86 @@
+Microsoft Windows [Version 10.0.22621.819]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\dudek>git --version
+git version 2.38.1.windows.1
+
+C:\Users\dudek>cd Desktop
+The system cannot find the path specified.
+
+C:\Users\dudek>cd C:\Users\dudek\OneDrive
+
+C:\Users\dudek\OneDrive>desktop
+'desktop' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\dudek\OneDrive>
+C:\Users\dudek\OneDrive>cd Desktop
+
+C:\Users\dudek\OneDrive\Desktop>cd project
+
+C:\Users\dudek\OneDrive\Desktop\project>git clone https://github.com/Farooqali1998/ecommerce-frontend.git
+Cloning into 'ecommerce-frontend'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\Users\dudek\OneDrive\Desktop\project>cd C:\Users\dudek\OneDrive\Desktop\project\ecommerce-frontend
+
+C:\Users\dudek\OneDrive\Desktop\project\ecommerce-frontend>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        indext.html.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\dudek\OneDrive\Desktop\project\ecommerce-frontend>git add .
+
+C:\Users\dudek\OneDrive\Desktop\project\ecommerce-frontend>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   indext.html.txt
+
+
+C:\Users\dudek\OneDrive\Desktop\project\ecommerce-frontend>git commit -m "added index.html"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'dudek@Farooqali.(none)')
+
+C:\Users\dudek\OneDrive\Desktop\project\ecommerce-frontend>git config --global user.email "dudekulafarooqali@gmail.com"
+
+C:\Users\dudek\OneDrive\Desktop\project\ecommerce-frontend> git config --global user.name "farooqali"
+
+C:\Users\dudek\OneDrive\Desktop\project\ecommerce-frontend>git commit -m "added index.html"
+[main 75f2e6d] added index.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 indext.html.txt
+
+C:\Users\dudek\OneDrive\Desktop\project\ecommerce-frontend>git push
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 285 bytes | 285.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Farooqali1998/ecommerce-frontend.git
+   e0875c9..75f2e6d  main -> main
+
+C:\Users\dudek\OneDrive\Desktop\project\ecommerce-frontend>
